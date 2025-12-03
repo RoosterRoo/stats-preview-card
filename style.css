@@ -58,6 +58,10 @@ body {
   padding: 0 16px;
 }
 
+.details p {
+  text-transform: uppercase;
+}
+
 h1,
 h2,
 p {
@@ -100,15 +104,18 @@ p {
   }
 
   .stats {
-    padding: 20px 30px;
+    padding: 0 30px;
     order: 1;
+    margin: 12px 0 48px 0;
   }
 
   .details {
     display: flex;
   }
 
-  .details > section {
+  .details h2,
+  .details p {
     margin: 0 32px;
+    text-align: left;
   }
 }
