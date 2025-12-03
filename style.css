@@ -59,7 +59,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+p {
   text-align: center;
 }
 
@@ -87,7 +88,7 @@ p {
   font-size: 15px;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 426px) {
   .hero {
     background-image: url('./images/image-header-desktop.jpg');
     height: auto;
@@ -101,5 +102,13 @@ p {
   .stats {
     padding: 20px 30px;
     order: 1;
+  }
+
+  .details {
+    display: flex;
+  }
+
+  .details > section {
+    margin: 0 32px;
   }
 }
