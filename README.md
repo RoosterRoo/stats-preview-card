@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [](https://github.com/RoosterRoo/stats-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [](https://roosterroo.github.io/stats-preview-card/)
 
 ## My process
 
